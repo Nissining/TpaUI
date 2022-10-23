@@ -1,0 +1,8 @@
+name: MoreTp
+main: nissining.moretp.MoreTp
+version: "1"
+author: Nissining
+api: ["1.0.0"]
+commands:
+  tpa:
+    description: TpaUI By Nissining
