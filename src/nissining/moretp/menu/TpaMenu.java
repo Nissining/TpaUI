@@ -17,7 +17,7 @@ public class TpaMenu {
 
     private final MoreTp moreTp;
 
-    private final List<TpaButton> buttons = new ArrayList<TpaButton>() {{
+    public static final List<TpaButton> buttons = new ArrayList<TpaButton>() {{
         add(new TpaButton("传送到玩家身边", "items/ender_eye"));
         add(new TpaButton("回到死亡点", "items/ender_eye"));
         add(new TpaButton("返回地图出生点", "items/armor_stand"));
